@@ -1,0 +1,1163 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="author" content='Violeta Petrović'>
+        <meta name="description" content='MoGo - Bootstrap 5 Project'>
+        <meta name="keywords" content='web design, photography, creativity, seo, digital'>
+
+        <!-- IOS compatibility -->
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-title" content="MoGo">
+        <link rel="apple-touch-icon" href="apple-icon-144x144.png">
+
+        <!--        Android compatibility-->
+
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="aplication-name" content="MoGo">
+        <link rel="icon" type="image/png" href="android-icon-192x192.png">
+
+        <link rel="icon" type="image/ico" href="favicon.ico">
+
+        <link href="css/fonts.css" rel="stylesheet" type="text/css"/>
+
+        <!-- Bootstrap CSS -->
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+
+
+        <link href="css/theme.css" rel="stylesheet" type="text/css"/>
+        <link href="css/responsive.css" rel="stylesheet" type="text/css"/>
+            
+        <title>MoGo</title>
+    </head>
+    <body class="position-relative" data-bs-spy="scroll" data-bs-target="#main-menu" data-bs-offset="0" tabindex="0">
+        <header class="fixed-top text-center">
+            <nav class="navbar navbar-expand-md navbar-dark">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="css/images/logo.png" alt=""/>
+                    </a>
+                    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <div class="collapse navbar-collapse " id="main-menu">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#about">about</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#service">service</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#work">work</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#blog">blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="icon fas fa-shopping-cart" href="#"></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="icon fas fa-search" href="#"></a>
+                            </li>
+                        </ul>
+                    </div> <!-- Main-menu ends here -->
+                </div> <!-- Container ends -->
+            </nav> <!-- Navbar ends -->
+        </header>
+        <main>
+            <section class="home text-center">
+                <div id="carousel-indicator" class="carousel slide" data-bs-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-bs-target="#carousel-indicator" data-bs-slide-to="0" class="active"></li>
+                        <li data-bs-target="#carousel-indicator" data-bs-slide-to="1"></li>
+                        <li data-bs-target="#carousel-indicator" data-bs-slide-to="2"></li>
+                        <li data-bs-target="#carousel-indicator" data-bs-slide-to="3"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" style="background-image: linear-gradient(to bottom, rgba(243, 129, 129,0.9), rgba(252, 227, 138,0.9)),url(assets/home.jpg)">
+                            <div class="container">
+                                <p class="section-title-add home-title-add text-white">Creative Template</p>
+                                <h1 class="section-title home-title text-white">welcome<br> to mogo</h1>
+                                <a class="btn btn-outline-light text-uppercase home-link">learn more</a>
+                            </div>
+                        </div>
+                        <div class="carousel-item" style="background-image: linear-gradient(to bottom, rgba(243, 129, 129,0.9), rgba(252, 227, 138,0.9)),url(assets/cat.jpg)">
+                            <div class="container">
+                                <p class="section-title-add home-title-add text-white">Creative Template</p>
+                                <h1 class="section-title home-title text-white">welcome<br> to mogo</h1>
+                                <a class="btn btn-outline-light text-uppercase home-link">learn more</a>
+                            </div>
+                        </div>
+                        <div class="carousel-item" style="background-image: linear-gradient(to bottom, rgba(243, 129, 129,0.9), rgba(252, 227, 138,0.9)),url(assets/rooster.jpg)">
+                            <div class="container">
+                                <p class="section-title-add home-title-add text-white">Creative Template</p>
+                                <h1 class="section-title home-title text-white">welcome<br> to mogo</h1>
+                                <a class="btn btn-outline-light text-uppercase home-link">learn more</a>
+                            </div>
+                        </div>
+                        <div class="carousel-item" style="background-image: linear-gradient(to bottom, rgba(243, 129, 129,0.9), rgba(252, 227, 138,0.9)),url(assets/dog.jpg)">
+                            <div class="container">
+                                <p class="section-title-add home-title-add text-white">Creative Template</p>
+                                <h1 class="section-title home-title text-white">welcome<br> to mogo</h1>
+                                <a class="btn btn-outline-light text-uppercase home-link">learn more</a>
+                            </div>
+                        </div>
+                    </div> <!-- Carousel-inner ends here -->
+                </div> <!-- Carousel ends -->
+            </section> <!-- Home section ends here -->
+
+            <!-- About section starts here -->
+            <section class="about" id="about">
+                <div class="container text-center">
+                    <p class="section-title-add">What we do</p>
+                    <h2 class="section-title about-title">story about us</h2>
+                    <p class="about-content px-3 px-sm-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                        nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                    <div class="row justify-content-md-center">
+                        <!-- Col 1 starts -->
+                        <div class="col-12 col-md-6 col-lg-4 mb-5 mb-lg-0 px-4">
+                            <article class="about-item h-100">
+                                <figure class="mb-0 about-item-image position-relative">
+                                    <img src="css/images/About/about01.jpg" alt="" class="w-100"/>
+                                    <div class="hover flex-column justify-content-center">
+                                        <span class="fas fa-user-friends w-100"></span>
+                                        <h3>super team</h3>
+                                    </div>
+                                </figure>
+                            </article>
+                        </div> <!-- Col 1 ends -->
+                        <!-- Col 2 starts -->
+                        <div class="col-12 col-md-6 col-lg-4 mb-5 mb-lg-0 px-4">
+                            <article class="about-item h-100">
+                                <figure class="mb-0 about-item-image position-relative">
+                                    <img src="css/images/About/about02.jpg" alt="" class="w-100"/>
+                                    <div class="hover flex-column justify-content-center">
+                                        <span class="fas fa-user-friends w-100"></span>
+                                        <h3>super team</h3>
+                                    </div>
+                                </figure>
+                            </article>
+                        </div> <!-- Col 2 ends -->
+                        <!-- Col 3 starts -->
+                        <div class="col-12 col-md-6 col-lg-4 px-4">
+                            <article class="about-item h-100">
+                                <figure class="mb-0 about-item-image position-relative">
+                                    <img src="css/images/About/about03.jpg" alt="" class="w-100"/>
+                                    <div class="hover flex-column justify-content-center">
+                                        <span class="fas fa-user-friends w-100"></span>
+                                        <h3>super team</h3>
+                                    </div>
+                                </figure>
+                            </article>
+                        </div> <!-- Col 3 ends -->
+                    </div> <!-- Row ends -->
+                </div> <!-- Container ends -->
+            </section> <!-- Section About ends here -->
+
+            <!-- Section Portfolio starts here -->
+            <section class="portfolio">
+                <div class="container">
+                    <div class="row text-white text-center">
+                        <!-- col 1 starts-->
+                        <div class="col">
+                            <article class="portfolio-item">
+                                <h3>42</h3>
+                                <p>web design projects</p>
+                            </article>
+                        </div> <!-- Col 1 ends -->
+                        <div class="col">
+                            <!-- Col 2 starts-->
+                            <article class="portfolio-item">
+                                <h3>123</h3>
+                                <p>happy clients</p>
+                            </article>
+                        </div><!-- Col 2 ends-->
+                        <div class="col">
+                            <!-- Col 3 starts -->
+                            <article class="portfolio-item">
+                                <h3>15</h3>
+                                <p>award winner</p>
+                            </article>
+                        </div> <!-- Col 3 ends -->
+                        <div class="col">
+                            <!-- Col 4 starts-->
+                            <article class="portfolio-item">
+                                <h3>99</h3>
+                                <p>cup of coffee</p>
+                            </article>
+                        </div><!-- Col 4 ends-->
+                        <div class="col">
+                            <!-- Col 5 starts -->
+                            <article class="portfolio-item">
+                                <h3>24</h3>
+                                <p>members</p>
+                            </article>
+                        </div><!-- Col 5 ends -->
+                    </div> <!-- Flex container ends -->
+                </div> <!-- Container ends -->
+            </section> <!-- Section Portfolio ends here  -->
+
+            <!-- Section Tools starts here -->
+            <section class="tools">
+                <div class="container text-center">
+                    <p class="section-title-add">We work with</p>
+                    <h2 class="section-title">amazing services</h2>
+                    <!-- First row -->
+                    <div class="row text-sm-start">
+                        <!-- Col 1 sarts -->
+                        <div class="col-12 col-md-6 col-lg-4 px-3 mb-4 mb-lg-0">
+                            <article class="tools-item">
+                                <div class="row">
+                                    <div class="col-12 col-sm-3 mb-3 mb-sm-0 text-sm-center">
+                                        <div class="tools-item-icon h-100">
+                                            <span class="far fa-clock"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-9">
+                                        <div class="tools-item-content h-100">
+                                            <h4>Photography</h4>
+                                            <p>Lorem ipsum dolor sit amet, consectetur
+                                                adipiscing elit, sed do eiusmod tempor.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article> 
+                        </div><!-- Col 1 ends -->
+                        <!-- Col 2 sarts -->
+                        <div class="col-12 col-md-6 col-lg-4 px-3 mb-4 mb-lg-0">
+                            <article class="tools-item">
+                                <div class="row">
+                                    <div class="col-12 col-sm-3 mb-3 mb-sm-0 text-sm-center">
+                                        <div class="tools-item-icon h-100">
+                                            <span class="fas fa-chart-line"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-9">
+                                        <div class="tools-item-content h-100">
+                                            <h4>Web Design</h4>
+                                            <p>Ipsum dolor sit amet, consectetur adipiscing elit,
+                                                sed do eiusmod tempor.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article> 
+                        </div><!-- Col 2 ends -->
+                        <!-- Col 3 sarts -->
+                        <div class="col-12 col-md-6 col-lg-4 px-3 mb-4 mb-lg-0">
+                            <article class="tools-item">
+                                <div class="row">
+                                    <div class="col-12 col-sm-3 mb-3 mb-sm-0 text-sm-center">
+                                        <div class="tools-item-icon h-100">
+                                            <span class="fas fa-desktop"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-9">
+                                        <div class="tools-item-content h-100">
+                                            <h4>Creativity</h4>
+                                            <p>Dolor sit amet, consectetur adipiscing elit,
+                                                sed do eiusmod tempor.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article> 
+                        </div><!-- Col 3 ends -->
+                        <div class="separator">
+                            <hr>
+                        </div>
+                        <!-- Col 4 sarts -->
+                        <div class="col-12 col-md-6 col-lg-4 px-3 mb-4 mb-lg-0">
+                            <article class="tools-item">
+                                <div class="row">
+                                    <div class="col-12 col-sm-3 mb-3 mb-sm-0 text-sm-center">
+                                        <div class="tools-item-icon h-100">
+                                            <span class="fas fa-book-open"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-9">
+                                        <div class="tools-item-content h-100">
+                                            <h4 class="d-inline-block" data-bs-toggle="tooltip" data-bs-placement="top" title="Search engine optimization">seo</h4>
+                                            <p>Ipsum dolor sit amet, consectetur adipiscing elit,
+                                                sed do eiusmod.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article> 
+                        </div><!-- Col 4 ends -->
+                        <!-- Col 5 sarts -->
+                        <div class="col-12 col-md-6 col-lg-4 px-3 mb-4 mb-md-0">
+                            <article class="tools-item">
+                                <div class="row">
+                                    <div class="col-12 col-sm-3 mb-3 mb-sm-0 text-sm-center">
+                                        <div class="tools-item-icon h-100">
+                                            <span class="fas fa-home"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-9">
+                                        <div class="tools-item-content h-100">
+                                            <h4 class="d-inline-block" data-bs-toggle="tooltip" data-bs-placement="top" title="Hypertext Markup Language and Cascading Style Sheets">Css/Html</h4>
+                                            <p>Lorem dolor sit amet, consectetur adipiscing elit,
+                                                sed do tempor.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article> 
+                        </div><!-- Col 5 ends -->
+                        <!-- Col 6 sarts -->
+                        <div class="col-12 col-md-6 col-lg-4 px-3 mb-4 mb-md-0">
+                            <article class="tools-item">
+                                <div class="row">
+                                    <div class="col-12 col-sm-3 mb-3 mb-sm-0 text-sm-center">
+                                        <div class="tools-item-icon h-100">
+                                            <span class="far fa-image"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-9">
+                                        <div class="tools-item-content h-100">
+                                            <h4>digital</h4>
+                                            <p>Sit amet, consectetur adipiscing elit,
+                                                sed do eiusmod tempor.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article> 
+                        </div><!-- Col 6 ends -->
+                    </div> <!-- Row ends -->
+                </div> <!-- Container ends -->
+            </section> <!-- Section tools ends here -->
+
+            <!-- Section Design starts -->
+            <section class="design" style="background-image: linear-gradient(to right, rgba(255, 255, 255,0.85), rgba(255, 255, 255,0.85)), url(assets/design.jpg); ">
+                <div class="container text-center">
+                    <p class="section-title-add">For all devices</p>
+                    <h2 class="section-title">Unique Design</h2>
+                    <figure class="mb-0 design-image position-relative">
+                        <img src="css/images/Design/tablet.png" alt=""/>
+                        <figure class="mb-0 design-image-phone">
+                            <img src="css/images/Design/phone.png" alt=""/>
+                        </figure>
+                    </figure>
+                </div> <!-- Container ends -->
+            </section><!-- Section Design ends -->
+
+            <!-- Section Service starts here -->
+            <section class="service" id="service">
+                <div class="container text-center">
+                    <p class="section-title-add">Service</p>
+                    <h2 class="section-title">what we do</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                        nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                    <div class="row"> <!-- Row starts here -->
+
+                        <!-- Col 1 starts -->
+                        <div class="col-12 col-lg-6 mb-5 mb-lg-0 px-4 px-lg-0">
+                            <figure class="mb-0 h-100 service-image">
+                                <img src="css/images/service.jpg" alt="" class="w-100"/>
+                            </figure>
+                        </div><!-- Col 1 ends -->
+
+                        <!-- Col 2 starts -->
+                        <div class="col-12 col-lg-6 text-start px-4">
+                            <article class="service-content h-100">
+                                <div class="accordion accordion-flush" id="accordion">
+                                    <div class="accordion-item ">
+                                        <h2 class="accordion-header" id="headingOne">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                <span class="far fa-image"></span> <span> Photography </span>
+                                            </button>
+                                        </h2>
+                                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordion">
+                                            <div class="accordion-body">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                                reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                                                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                                                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                            </div>
+                                        </div>
+                                    </div> <!-- Accordion item ends here  -->
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingTwo">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                <span class="fas fa-sliders-h"></span> <span> creativity </span>
+                                            </button>
+                                        </h2>
+                                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordion">
+                                            <div class="accordion-body">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                                reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                                                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                                                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                            </div>
+                                        </div>
+                                    </div> <!-- Accordion item ends here  -->
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingThree">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                <span class="fas fa-bullseye"></span> <span> web design </span>
+                                            </button>
+                                        </h2>
+                                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordion">
+                                            <div class="accordion-body">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                                reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                                                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                                                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                            </div>
+                                        </div>
+                                    </div> <!-- Accordion item ends here  -->
+                                </div> <!-- accordion ends here -->
+                            </article> <!-- Service-content ends-->
+                        </div> <!-- Col 2 ends -->
+                    </div> <!-- Row ends -->
+                </div> <!-- Container ends -->
+            </section> <!-- Section Service ends here -->
+
+            <!-- Section Comment starts here -->
+            <section class="comment">
+                <div class="container text-center">
+                    <div id="comment-controls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <!-- Slide 1 -->
+                            <div class="carousel-item active">
+                                <div class="row justify-content-md-center">
+                                    <div class="col-12 col-md-3 mb-5 mb-md-0">
+                                        <aside class="comment-icon">
+                                            <span class="far fa-comments"></span>
+                                        </aside>
+                                    </div>
+                                    <div class="col-12 col-md-8 text-md-start">
+                                        <article class="comment-content">
+                                            <p>
+                                                “Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                                sed do eiusmod tempor incididunt ut labore et dolore magna
+                                                aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”
+                                            </p>
+                                            <h3 class="comment-author">Jon Doe</h3>
+                                        </article>
+                                    </div>
+                                </div>     
+                            </div> <!-- Slide 1 ends -->
+
+                            <!-- Slide 2 -->
+                            <div class="carousel-item">
+                                <div class="row justify-content-md-center">
+                                    <div class="col-12 col-md-3 mb-5 mb-md-0">
+                                        <aside class="comment-icon">
+                                            <span class="far fa-comments"></span>
+                                        </aside>
+                                    </div>
+                                    <div class="col-12 col-md-8 text-md-start">
+                                        <article class="comment-content">
+                                            <p>
+                                                “All that was great in the past was ridiculed,
+                                                condemned, combated, suppressed — only to emerge
+                                                all the more powerfully, all the more triumphantly
+                                                from the struggle.”
+                                            </p>
+                                            <h3 class="comment-author">Nikola Tesla</h3>
+                                        </article>
+                                    </div>
+                                </div>     
+                            </div> <!-- Slide 2 ends -->
+                            <!-- Slide 3 -->
+                            <div class="carousel-item">
+                                <div class="row justify-content-md-center">
+                                    <div class="col-12 col-md-3 mb-5 mb-md-0">
+                                        <aside class="comment-icon">
+                                            <span class="far fa-comments"></span>
+                                        </aside>
+                                    </div>
+                                    <div class="col-12 col-md-8 text-md-start">
+                                        <article class="comment-content">
+                                            <p>
+                                                “If you can’t fly then run, if you can’t run then walk,
+                                                if you can’t walk then crawl, but whatever you do you
+                                                have to keep moving forward.”
+                                            </p>
+                                            <h3 class="comment-author">Martin Luther King</h3>
+                                        </article>
+                                    </div>
+                                </div>     
+                            </div> <!-- Slide 3 ends -->
+                        </div> <!-- Carousel-inner ends  -->
+
+                        <!-- Controls -->
+                        <a class="carousel-control-prev justify-content-start" href="#comment-controls" role="button" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </a>
+                        <a class="carousel-control-next justify-content-end" href="#comment-controls" role="button" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </a>
+                    </div><!-- Carousel ends -->
+                </div> <!-- Container ends -->
+            </section> <!-- Section Comment ends -->
+
+            <!-- Team section starts here -->
+            <section class="team">
+                <div class="container text-center">
+                    <p class="section-title-add">Who we are</p>
+                    <h2 class="section-title team-title">meet our team</h2>
+                    <p class="team-content px-3 px-sm-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                        nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                    <div class="row justify-content-md-center">
+                        <!-- Col 1 starts -->
+                        <div class="col-12 col-md-6 col-lg-4 mb-5 mb-lg-0 px-4">
+                            <article class="team-item h-100">
+                                <figure class="mb-0 team-item-image position-relative">
+                                    <img src="css/images/Team/team01.jpg" alt="" class="w-100"/>
+                                    <div class="hover d-flex align-items-center justify-content-center">
+                                        <a href="https://facebook.com" class="fab fa-facebook-f"></a>
+                                        <a href="https://facebook.com" class="fab fa-twitter"></a>
+                                        <a href="https://pinterest.com" class="fab fa-pinterest-p"></a>
+                                        <a href="https://instagram.com" class="fab fa-instagram"></a>
+                                    </div>
+                                </figure>
+                            </article>
+                        </div> <!-- Col 1 ends -->
+                        <!-- Col 2 starts -->
+                        <div class="col-12 col-md-6 col-lg-4 mb-5 mb-lg-0 px-4">
+                            <article class="team-item h-100">
+                                <figure class="mb-0 team-item-image position-relative">
+                                    <img src="css/images/Team/team02.jpg" alt="" class="w-100"/>
+                                    <div class="hover d-flex align-items-center justify-content-center">
+                                        <a href="https://facebook.com" class="fab fa-facebook-f"></a>
+                                        <a href="https://facebook.com" class="fab fa-twitter"></a>
+                                        <a href="https://pinterest.com" class="fab fa-pinterest-p"></a>
+                                        <a href="https://instagram.com" class="fab fa-instagram"></a>
+                                    </div>
+                                </figure>
+                            </article>
+                        </div> <!-- Col 2 ends -->
+                        <!-- Col 3 starts -->
+                        <div class="col-12 col-md-6 col-lg-4 px-4">
+                            <article class="team-item h-100">
+                                <figure class="mb-0 team-item-image position-relative">
+                                    <img src="css/images/Team/team03.jpg" alt="" class="w-100"/>
+                                    <div class="hover d-flex align-items-center justify-content-center">
+                                        <a href="https://facebook.com" class="fab fa-facebook-f"></a>
+                                        <a href="https://facebook.com" class="fab fa-twitter"></a>
+                                        <a href="https://pinterest.com" class="fab fa-pinterest-p"></a>
+                                        <a href="https://instagram.com" class="fab fa-instagram"></a>
+                                    </div>
+                                </figure>
+                            </article>
+                        </div> <!-- Col 3 ends -->
+                    </div> <!-- Row ends -->
+                </div> <!-- Container ends -->
+            </section> <!-- Section Team ends here -->
+
+            <!-- Section Badges starts -->
+            <section class="badges">
+                <div class="container text-center">
+                    <div class="row align-items-center">
+                        <!-- Col 1 starts -->
+                        <div class="col-12 col-sm-6 mb-4 col-lg-2 mb-lg-0">
+                            <figure class="badges-item">
+                                <img src="css/images/Badges/Hipster01.png" alt=""/>
+                            </figure>
+                        </div><!-- Col 1 ends -->
+
+                        <!-- Col 2 starts -->
+                        <div class="col-12 col-sm-6 mb-4 col-lg-2 mb-lg-0">
+                            <figure class="badges-item">
+                                <img src="css/images/Badges/Hipster02.png" alt=""/>
+                            </figure>
+                        </div><!-- Col 2 ends -->
+
+                        <!-- Col 3 starts -->
+                        <div class="col-12 col-sm-6 mb-4 col-lg-2 mb-lg-0">
+                            <figure class="badges-item">
+                                <img src="css/images/Badges/Hipster03.png" alt=""/>
+                            </figure>
+                        </div><!-- Col 3 ends -->
+
+                        <!-- Col 4 starts -->
+                        <div class="col-12 col-sm-6 mb-4 col-lg-2 mb-lg-0">
+                            <figure class="badges-item">
+                                <img src="css/images/Badges/Hipster04.png" alt=""/>
+                            </figure>
+                        </div><!-- Col 4 ends -->
+
+                        <!-- Col 5 starts -->
+                        <div class="col-12 col-sm-6 mb-4 col-lg-2 mb-sm-0">
+                            <figure class="badges-item">
+                                <img src="css/images/Badges/Hipster05.png" alt=""/>
+                            </figure>
+                        </div><!-- Col 5 ends -->
+
+                        <!-- Col 6 starts -->
+                        <div class="col-12 col-sm-6 mb-4 col-lg-2 mb-sm-0">
+                            <figure class="badges-item">
+                                <img src="css/images/Badges/Hipster06.png" alt=""/>
+                            </figure>
+                        </div><!-- Col 6 ends -->
+
+                    </div> <!-- Row ends -->
+                </div> <!-- Container ends -->
+            </section> <!-- Section Badges ends here -->
+            
+            <!-- Section Work starts -->
+            <section class="work" id="work">
+                <div class="container text-center">
+                    <p class="section-title-add">What we do</p> 
+                    <h2 class="section-title">Some of our work</h2>
+                    <p class="work-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                    <!-- Row starts here -->
+                    <div class="row">
+
+                        <!-- Col 1 starts -->
+                        <div class="col-12 col-md-6 px-md-0 col-lg-3 px-4 px-lg-0">
+                            <article class="image-placeholder size-1by1 position-relative" style="background-image: url(css/images/work/work01.jpg)">
+                                <div class="hover">
+                                    <span class="far fa-image"></span>
+                                    <h3>creatively designed</h3>
+                                    <p>Lorem ipsum dolor sit</p>
+                                </div>
+                            </article>
+                            <article class="image-placeholder size-1by1" style="background-image: url(css/images/work/work02.jpg)">
+                                <div class="hover">
+                                    <span class="far fa-image"></span>
+                                    <h3>creatively designed</h3>
+                                    <p>Lorem ipsum dolor sit</p>
+                                </div>
+                            </article>
+                        </div> <!-- Col 1 ends -->
+
+                        <!-- Col 2 starts -->
+                        <div class="col-12 col-md-6 px-md-0 col-lg-3 px-4 px-lg-0">
+                            <article class="image-placeholder size-1by1" style="background-image: url(css/images/work/work03.jpg)">
+                                <div class="hover">
+                                    <span class="far fa-image"></span>
+                                    <h3>creatively designed</h3>
+                                    <p>Lorem ipsum dolor sit</p>
+                                </div>
+                            </article>
+                            <article class="image-placeholder size-1by1" style="background-image: url(css/images/work/work04.jpg)">
+                                <div class="hover">
+                                    <span class="far fa-image"></span>
+                                    <h3>creatively designed</h3>
+                                    <p>Lorem ipsum dolor sit</p>
+                                </div>
+                            </article>
+                        </div> <!-- Col 2 ends -->
+
+                        <!-- Col 3 starts -->
+                        <div class="col-12 col-md-6 px-md-0 col-lg-3 px-4 px-lg-0">
+                            <article class="image-placeholder size-1by2" style="background-image: url(css/images/work/work05.jpg)">
+                                <div class="hover">
+                                    <span class="far fa-image"></span>
+                                    <h3>creatively designed</h3>
+                                    <p>Lorem ipsum dolor sit</p>
+                                </div>
+                            </article>
+                        </div> <!-- Col 3 ends -->
+
+                        <!-- Col 4 starts -->
+                        <div class="col-12 col-md-6 px-md-0 col-lg-3 px-4 px-lg-0">
+                            <article class="image-placeholder size-1by1" style="background-image: url(css/images/work/work06.jpg)">
+                                <div class="hover">
+                                    <span class="far fa-image"></span>
+                                    <h3>creatively designed</h3>
+                                    <p>Lorem ipsum dolor sit</p>
+                                </div>
+                            </article>
+                            <article class="image-placeholder size-1by1" style="background-image: url(css/images/work/work07.jpg)">
+                                <div class="hover">
+                                    <span class="far fa-image"></span>
+                                    <h3>creatively designed</h3>
+                                    <p>Lorem ipsum dolor sit</p>
+                                </div>
+                            </article>
+                        </div> <!-- Col 4 ends -->
+
+                    </div><!-- Row ends -->
+                </div><!-- Container ends -->
+            </section><!-- Work section ends here -->
+
+            <!-- Testimonial section starts here -->
+            <section class="testimonial">
+                <div class="container text-center">
+                    <div id="testimonial-controls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <!-- Slide 1 -->
+                            <div class="carousel-item active">
+                                <div class="row justify-content-md-center">
+                                    <div class="col-12 col-md-3 mb-4 mb-md-0">
+                                        <aside class="testimonial-image">
+                                            <img src="css/images/testimonial.jpg" alt=""/>          
+                                        </aside>
+                                    </div>
+                                    <div class="col-12 col-md-8 text-md-start">
+                                        <article class="testimonial-content">
+                                            <p>
+                                                “Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                                sed do eiusmod tempor incididunt ut labore et dolore magna
+                                                aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”
+                                            </p>
+                                            <h3 class="testimonial-author">Joshua Earle</h3>
+                                        </article>
+                                    </div>
+                                </div>     
+                            </div> <!-- Slide 1 ends -->
+
+                            <!-- Slide 2 -->
+                            <div class="carousel-item">
+                                <div class="row justify-content-md-center">
+                                    <div class="col-12 col-md-3 mb-4 mb-md-0">
+                                        <aside class="testimonial-image">
+                                            <img src="css/images/testimonial.jpg" alt=""/>
+                                        </aside>
+                                    </div>
+                                    <div class="col-12 col-md-8 text-md-start">
+                                        <article class="testimonial-content">
+                                            <p>
+                                                “All that was great in the past was ridiculed,
+                                                condemned, combated, suppressed — only to emerge
+                                                all the more powerfully, all the more triumphantly
+                                                from the struggle.”
+                                            </p>
+                                            <h3 class="testimonial-author">Nikola Tesla</h3>
+                                        </article>
+                                    </div>
+                                </div>     
+                            </div> <!-- Slide 2 ends -->
+                            <!-- Slide 3 -->
+                            <div class="carousel-item">
+                                <div class="row justify-content-md-center">
+                                    <div class="col-12 col-md-3 mb-4 mb-md-0">
+                                        <aside class="testimonial-image">
+                                            <img src="css/images/testimonial.jpg" alt=""/>
+                                        </aside>
+                                    </div>
+                                    <div class="col-12 col-md-8 text-md-start">
+                                        <article class="testimonial-content">
+                                            <p>
+                                                “If you can’t fly then run, if you can’t run then walk,
+                                                if you can’t walk then crawl, but whatever you do you
+                                                have to keep moving forward.”
+                                            </p>
+                                            <h3 class="testimonial-author">Martin Luther King</h3>
+                                        </article>
+                                    </div>
+                                </div>     
+                            </div> <!-- Slide 3 ends -->
+                        </div> <!-- Carousel-inner ends  -->
+
+                        <!-- Controls -->
+                        <a class="carousel-control-prev justify-content-start" href="#testimonial-controls" role="button" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </a>
+                        <a class="carousel-control-next justify-content-end" href="#testimonial-controls" role="button" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </a>
+                    </div><!-- Carousel ends --> 
+                </div> <!-- Container ends -->
+            </section> <!-- Section Testimonial ends here -->
+
+            <!-- Section Clients starts here -->
+            <section class="clients" style="background-image: linear-gradient(to right, rgba(255, 255, 255,0.85), rgba(255, 255, 255,0.85)), url(assets/clients.jpg)">
+                <div class="container text-center">
+                    <p class="section-title-add">Happy Clients</p>
+                    <h2 class="section-title">what people say</h2> 
+                    <!-- First row -->
+                    <div class="row text-md-start">
+                        <!-- Col 1 starts -->
+                        <div class="col-12 col-md-6 px-3 mb-4 mb-md-0">
+                            <article class="clients-item">
+                                <!-- Second row -->
+                                <div class="row">
+                                    <div class="col-12 col-md-3 mb-3 mb-md-0">
+                                        <div class="clients-item-image h-100">
+                                            <img src="css/images/Clients/client01.jpg" alt=""/>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-9">
+                                        <div class="clients-item-content h-100">
+                                            <h4>Matthew Dix</h4>
+                                            <p class="graphic-design">Graphic Design</p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur
+                                                adipiscing elit, sed do eiusmod tempor
+                                                incididunt ut labore et dolore magna aliqua.
+                                                Ut enim ad minim.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div> <!-- Second row ends-->
+                            </article> <!-- Clients item ends -->
+                        </div><!-- Col 1 ends -->
+
+                        <!-- Col 2 starts -->
+                        <div class="col-12 col-md-6 px-3 mb-4 mb-md-0">
+                            <article class="clients-item">
+                                <!-- Second row -->
+                                <div class="row">
+                                    <div class="col-12 col-md-3 mb-3 mb-md-0">
+                                        <div class="clients-item-image h-100">
+                                            <img src="css/images/Clients/client02.jpg" alt=""/>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-9">
+                                        <div class="clients-item-content h-100">
+                                            <h4>Nick Karvounis</h4>
+                                            <p class="graphic-design">Graphic Design</p>
+                                            <p>Sit amet, consectetur adipiscing elit,
+                                                sed do eiusmod tempor incididunt ut
+                                                labore et dolore magna aliqua. Ut
+                                                enim ad minim veniam
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div> <!-- Second row ends-->
+                            </article> <!-- Clients item ends -->
+                        </div><!-- Col 2 ends -->
+
+                        <!-- Col 3 starts -->
+                        <div class="col-12 col-md-6 px-3 mb-4 mb-md-0">
+                            <article class="clients-item">
+                                <!-- Second row -->
+                                <div class="row">
+                                    <div class="col-12 col-md-3 mb-3 mb-md-0">
+                                        <div class="clients-item-image h-100">
+                                            <img src="css/images/Clients/client03.jpg" alt=""/>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-9">
+                                        <div class="clients-item-content h-100">
+                                            <h4>Jaelynn Castillo </h4>
+                                            <p class="graphic-design">Graphic Design</p>
+                                            <p>Ipsum dolor sit amet, consectetur adipiscing
+                                                elit, sed do eiusmod tempor incididunt
+                                                ut labore et dolore magna aliqua. Ut
+                                                enim ad minim veniam
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div> <!-- Second row ends-->
+                            </article> <!-- Clients item ends -->
+                        </div><!-- Col 3 ends -->
+
+
+                        <!-- Col 4 sarts -->
+                        <div class="col-12 col-md-6 px-3 mb-4 mb-md-0">
+                            <article class="clients-item">
+                                <!-- Second row -->
+                                <div class="row">
+                                    <div class="col-12 col-md-3 mb-3 mb-md-0">
+                                        <div class="clients-item-image h-100">
+                                            <img src="css/images/Clients/client04.jpg" alt=""/>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-9">
+                                        <div class="clients-item-content h-100">
+                                            <h4>Mike Petrucci</h4>
+                                            <p class="graphic-design">Graphic Design</p>
+                                            <p>Sit amet, consectetur adipiscing elit,
+                                                sed do eiusmod tempor incididunt ut
+                                                labore et dolore magna aliqua. Ut
+                                                enim ad minim veniam
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div> <!-- Second row ends-->
+                            </article> <!-- Clients item ends -->
+                        </div><!-- Col 4 ends -->
+
+                    </div> <!-- Row ends -->
+                </div> <!-- Container ends -->
+            </section> <!-- Section Clients ends here -->   
+
+            <section class="blog" id="blog">
+                <div class="container text-center">
+                    <p class="section-title-add">Our stories</p>
+                    <h2 class="section-title">latest blog</h2>
+                    <!-- Row starts -->
+                    <div class="row text-md-start justify-content-md-center">
+                        <!-- Col 1 starts -->
+                        <div class="col-12 col-md-6 col-lg-4 mb-5 mb-lg-0 px-4">
+                            <article class="blog-item h-100">
+                                <figure class="blog-item-image mb-3 position-relative">
+                                    <img src="css/images/Blog/blog01.jpg" alt="" class="w-100 d-block"/>
+                                    <div class="badge text-white">
+                                        <h3 class="text-white">15</h3>
+                                        <p>Jan</p>
+                                    </div>
+                                </figure>
+                                <h5 class="blog-item-title">Lorem ipsum dolor sit amet</h5>
+                                <p class="blog-item-text">Consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                    ut labore et dolore magna aliqua.
+                                </p>
+                                <div class="separator">
+                                    <hr>
+                                </div>
+                                <div class="blog-item-links">
+                                    <a href="#" class="far fa-eye"></a>
+                                    <span>542</span>
+                                    <a href="#" class="far fa-comment-dots"></a>
+                                    <span>17</span>
+                                </div>
+                            </article> <!-- Article 1 ends -->
+                        </div> <!-- Col 1 ends -->
+
+                        <!-- Col 2 starts -->
+                        <div class="col-12 col-md-6 col-lg-4 mb-5 mb-lg-0 px-4">
+                            <article class="blog-item h-100">
+                                <figure class="blog-item-image mb-3 position-relative">
+                                    <img src="css/images/Blog/blog02.jpg" alt="" class="w-100 d-block"/>
+                                    <div class="badge text-white">
+                                        <h3 class="text-white">14</h3>
+                                        <p>Jan</p>
+                                    </div>
+                                </figure>
+                                <h5 class="blog-item-title">sed do eiusmod tempor</h5>
+                                <p class="blog-item-text">Adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolore
+                                    magna aliqua.
+                                </p>
+                                <div class="separator">
+                                    <hr>
+                                </div>
+                                <div class="blog-item-links">
+                                    <a href="#" class="far fa-eye"></a>
+                                    <span>992</span>
+                                    <a href="#" class="far fa-comment-dots"></a>
+                                    <span>42</span>
+                                </div>
+                            </article> <!-- Article 2 ends -->
+                        </div> <!-- Col 2 ends -->
+
+                        <!-- Col 3 starts -->
+                        <div class="col-12 col-md-6 col-lg-4 mb-5 mb-lg-0 px-4">
+                            <article class="blog-item h-100">
+                                <figure class="blog-item-image mb-3 position-relative">
+                                    <img src="css/images/Blog/blog03.jpg" alt="" class="w-100 d-block"/>
+                                    <div class="badge text-white">
+                                        <h3 class="text-white">12</h3>
+                                        <p>Jan</p>
+                                    </div>
+                                </figure>
+                                <h5 class="blog-item-title">incididunt ut labore et dolore</h5>
+                                <p class="blog-item-text">Elit, sed do eiusmod tempor incididunt
+                                    ut labore et dolore magna aliqua.
+                                </p>
+                                <div class="separator">
+                                    <hr>
+                                </div>
+                                <div class="blog-item-links">
+                                    <a href="#" class="far fa-eye"></a>
+                                    <span>1560</span>
+                                    <a href="#" class="far fa-comment-dots"></a>
+                                    <span>98</span>
+                                </div>
+                            </article> <!-- Article 3 ends -->
+                        </div> <!-- Col 3 ends -->
+                    </div> <!-- Row ends -->
+                </div> <!-- Container ends -->
+            </section> <!-- Section Blog ends here -->
+            
+            <!-- Section Map starts here -->
+            <section class="map" style="background-image: linear-gradient(to right, rgba(255, 255, 255,0.85), rgba(255, 255, 255,0.85)), url(assets/map.jpg)">
+                <div class="container text-center">
+                    <a href="https://google.com/maps" class="fas fa-map-marker-alt"></a>
+                    <h2 class="section-title">open map</h2> 
+                </div>
+            </section> <!-- and ends here -->
+            
+            <section class="contact" id="contact">
+                <div class="container">
+                    <!-- Row starts -->
+                    <div class="row main-row">  
+                        <!-- Col 1 starts here -->
+                        <div class="col-12 col-lg-5 text-center mb-5 mb-lg-0">
+                            <article class="contact-part1 h-100 text-lg-start">
+                                <a href='index.html' class='footer-logo d-block mx-auto mx-lg-0'>
+                                    <img src="css/images/logo-footer.png" alt=""/>
+                                </a>
+                                <p class="contact-part1-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                    ullamco laboris nisi ut aliquip ex ea commodo consequat.  Duis aute
+                                    irure dolor in reprehenderit in voluptate velit esse cillum
+                                    dolore eu fugiat nulla pariatur.
+                                </p>
+                                <div class="contact-part1-follower">
+                                    <span class="badge">15K</span><span>followers</span>
+                                </div>
+                                <div class="separator">
+                                    <hr>
+                                </div>
+                                <div class="contact-part1-links d-flex align-items-center">
+                                    <span>Follow Us:</span>
+                                    <a href="https://facebook.com" class="fab fa-facebook-f"></a>
+                                    <a href="https://facebook.com" class="fab fa-twitter"></a>
+
+                                    <a href="https://instagram.com" class="fab fa-instagram"></a>
+                                    <a href="https://pinterest.com" class="fab fa-pinterest-p"></a>
+                                    <a href="#" class="fab fa-google-plus-g"></a>
+                                    <a href="#" class="fab fa-youtube"></a>
+                                    <a href="#" class="fas fa-basketball-ball"></a>
+                                    <a href="#" class="fab fa-tumblr"></a>
+                                </div>
+                                <form method="post" action="#">
+                                    <div class="input-group mb-3">
+                                        <input type="email" class="form-control" placeholder="Your Email" aria-label="User's email" aria-describedby="button-addon2">
+                                        <button class="btn" type="button" id="button-addon2">SUBSCRIBE</button>
+                                    </div>
+                                </form>
+                            </article> <!-- Article 1 ends -->
+                        </div> <!-- Col 1 ends here -->
+
+                        <!-- Col 2 starts -->
+                        <div class="col-12 col-md-6 col-lg-4 mb-5 mb-lg-0">
+                            <article class="contact-part2 h-100">
+                                <h4 class="contact-part2-title text-center text-md-left">blogs</h4>
+                                <!-- Row starts -->
+                                <div class="row h-100">
+                                    <!-- Col 2.1 -->
+                                    <div class="col-12">
+                                        <article class="h-100">
+                                            <div class="d-flex">
+                                                <figure class="contact-part2-image">
+                                                    <img src="css/images/Footer-blog/hat.jpg" alt="" />
+                                                </figure>
+                                                <article class="contact-part2-content">
+                                                    <h5>
+                                                        <a href="#">Lorem ipsum dolor sit amet,
+                                                            consectetur adipiscing
+                                                        </a>
+                                                    </h5> 
+                                                    <p>Jan 9, 2016</p>
+                                                </article>
+                                            </div> 
+                                        </article>
+                                    </div><!-- Col 2.1 -->
+
+                                    <!-- Col 2.2 -->
+                                    <div class="col-12">
+                                        <article class="h-100">
+                                            <div class="d-flex">
+                                                <figure class="contact-part2-image">
+                                                    <img src="css/images/Footer-blog/happy-new-year.jpg" alt=""/>
+                                                </figure>
+                                                <article class="contact-part2-content">
+                                                    <h5>
+                                                        <a href="#">Consectetur adipiscing elit, sed
+                                                            do eiusmod tempor
+                                                        </a>
+                                                    </h5> 
+                                                    <p>Jan 9, 2016</p>
+                                                </article>
+                                            </div> 
+                                        </article>
+                                    </div><!-- Col 2.2 -->
+
+
+                                    <!-- Col 2.3 -->
+                                    <div class="col-12">
+                                        <article class="h-100">
+                                            <div class="d-flex">
+                                                <figure class="contact-part2-image">
+                                                    <img src="css/images/Footer-blog/sparkler.jpg" alt=""/>
+                                                </figure>
+                                                <article class="contact-part2-content">
+                                                    <h5>
+                                                        <a href="#">sed do eiusmod tempor incididunt
+                                                            ut labore
+                                                        </a>
+                                                    </h5> 
+                                                    <p>Jan 9, 2016</p>
+                                                </article>
+                                        </article>
+                                    </div> <!-- Col 2.3 -->
+                                </div> <!-- Row ends -->  
+                            </article> <!-- Contact-part2 ends here -->
+                        </div> <!-- Col 2 ends -->
+
+                        <!-- Col 3 starts -->
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <article class="contact-part3 h-100">
+                                <h4 class="contact-part3-title text-center text-md-left">instagram</h4>
+                                <div class="d-flex flex-wrap contact-part3-images mx-auto">
+                                    <img src="css/images/Footer-insta/insta01.jpg" alt=""/>
+                                    <img src="css/images/Footer-insta/insta02.jpg" alt=""/>
+                                    <img src="css/images/Footer-insta/insta03.jpg" alt=""/>
+                                    <img src="css/images/Footer-insta/insta04.jpg" alt=""/>
+                                    <img src="css/images/Footer-insta/insta05.jpg" alt=""/>
+                                    <img src="css/images/Footer-insta/insta06.jpg" alt=""/>
+                                    <img src="css/images/Footer-insta/insta07.jpg" alt=""/>
+                                    <img src="css/images/Footer-insta/insta08.jpg" alt=""/>
+                                    <img src="css/images/Footer-insta/insta09.jpg" alt=""/>
+                                </div>
+                                <a href="#" class="d-block text-center text-lg-start">View more photos</a>
+                            </article>
+                        </div> <!-- Col 3 ends -->
+
+                    </div> <!-- Row ends -->
+                    <div class="separator">
+                        <hr>
+                    </div>
+                    <footer class="text-center">
+                        <p>&copy; 2016 MoGo free PSD template by <a href="#">Laaqiq</a></p>
+                    </footer>
+                </div> <!-- Container ends -->
+            </section>  <!-- End - hvala bogu! -->
+        </main>
+
+
+
+
+
+        
+      
+            
+
+        <!-- Optional JavaScript; choose one of the two! -->    
+        <script src="js/jquery.js" type="text/javascript"></script>
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>
+        <script src="https://kit.fontawesome.com/e2e5f5e8b9.js" crossorigin="anonymous"></script>
+        <script> var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+                 var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+                 return new bootstrap.Tooltip(tooltipTriggerEl)})
+        </script>
+    </body>
+</html>

@@ -1,0 +1,263 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 8, 2020, 2:28:30 PM
+    Author     : frontend
+*/
+
+
+/*
+
+> 0        ''      NO NAME
+
+> 576px    SM    Small Devices
+
+> 768px    MD    Medium Devices
+
+> 992      LG    Large Devices
+
+> 1200     XL    Extra Large
+
+> 1400     XXL   Extra Extra Large
+
+*/
+
+@media(min-width:576px){
+     
+       /****HOME****/
+
+    .home .carousel-item {
+        padding: 164px 0 160px;
+    }
+    .home .home-title-add {
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+    .home .home-title {
+        font-size: 62px;
+        line-height: 68px;
+        margin-bottom: 40px;
+    }
+    .home .home-title.section-title:after {
+        margin-top: 40px;
+    }
+    
+    /*****COMMENT*****/
+    
+    .comment .comment-content p {
+        font-size: 20px;
+        line-height: 32px;
+    }    
+
+    /****TESTIMONIAL****/
+    
+    .testimonial .testimonial-content p {
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+@media(min-width:768px){
+        
+        /***HEADER***/
+        
+    header {
+        padding: 5px 0px;
+    }
+    header .navbar-brand {
+        margin-bottom: 15px;
+    }
+    header .navbar-nav .nav-item {
+        margin-right: 25px;
+    } 
+    header .navbar-nav .nav-item .nav-link {
+        border-bottom: 3px solid transparent;
+        transition: all 0.3s linear;   
+    }
+    header .navbar-nav .nav-item .nav-link:hover,
+    header .navbar-nav .nav-item .nav-link.active {
+        color: #FCE38A;
+        border-bottom: 3px solid #FCE38A;
+        background-color: unset;
+    }
+    
+    header .navbar-nav .nav-item .icon:hover {
+        color: #FCE38A;
+        background-color: unset;
+    }
+    
+       /****HOME****/
+   
+    .home .carousel-indicators li {
+        width: 67px;
+        margin-right: 22px;
+    }   
+    .home .home-title-add {
+        font-size: 52px;
+        margin-bottom: 42px;
+    }
+    .home .home-title {
+        font-size: 100px;
+        line-height: 120px;
+        margin-bottom: 50px;
+    }
+    .home .home-title.section-title:after {
+        margin-top: 71px;
+    }
+    
+    /*****DESIGN****/
+    
+    .design .design-image .design-image-phone {
+        position: absolute;
+        right: -34%;
+        bottom: -15%;
+        display: block;
+    }
+    
+    /****SERVICE****/
+    
+   .service p:nth-of-type(2) {
+        margin-bottom: 80px;
+    }
+      /***TEAM****/
+        
+   .team p:nth-of-type(2) {
+        margin-bottom: 80px;
+    }  
+
+       /***BADGES***/
+       
+    .badges {
+        margin-bottom: 90px;
+    }
+    
+      /****WORK***/
+      
+    .work .work-description {
+        margin-bottom: 85px;
+    }
+
+     /***CLIENTS****/
+    
+    .clients {
+        padding-bottom: 129px;
+    }
+    .graphic-design:after {
+        margin-right: auto;
+        margin-left: 0;
+    }
+    .clients .clients-item:first-of-type {
+        margin-bottom: 70px;
+    }
+    .clients .clients-item:nth-of-type(2) {
+        margin-bottom: 70px;
+    }
+    
+     /***BLOG***/
+     
+    .blog {
+        padding: 112px 0 117px;
+    }
+}
+@media(min-width:992px){
+    
+    /****HEADER****/ 
+    
+    header .navbar-nav .nav-item {
+        margin-right: 50px;
+    } 
+    
+     /****HOME****/
+     
+   .home .carousel-item {
+       padding: 229px 0 184px;
+    }
+   .home .carousel-indicators li {
+       width: 280px;
+       margin-bottom: 46px;
+    }
+   .home .home-title-add {
+       font-size: 60px;
+       margin-bottom: 42px;
+    }
+   .home .home-title {
+       font-size: 110px;
+       line-height: 114px;
+       margin-bottom: 50px;
+    }
+   .home .home-title.section-title:after {
+       margin-top: 71px;
+    }
+   
+    /***ABOUT***/
+   
+    .about .about-content {
+       margin-bottom: 91px;
+    }
+    
+    /***PORTFOLIO****/
+    
+    .portfolio .col {
+    border-left: 1px solid rgba(255,255,255,0.3);
+    border-right: 1px solid rgba(255,255,255,0.3);
+    }
+    
+     /***TOOLS****/
+     
+    .tools .separator {
+    display: block;
+    height: 2px solid #E5E5E5;
+    }
+    
+    /****SERVICE****/
+    
+   .service p:nth-of-type(2) {
+    margin-bottom: 92px;
+   } 
+   .service .accordion .accordion-item .accordion-body {
+    max-height: 104px;
+    overflow: scroll;
+    overflow-x: hidden;
+    
+   }
+   
+   /***COMMENT***/
+  
+  .comment .comment-icon {
+    padding: 0px 50px;
+  }
+      /***TEAM****/
+        
+   .team p:nth-of-type(2) {
+    margin-bottom: 92px;
+  }
+    /***BADGES***/
+    
+   .badges {
+    margin-bottom: 110px;
+  }
+     /****WORK***/
+     
+.work .work-description {
+    margin-bottom: 102px;
+  }
+   /***TESTIMONIAL***/
+     
+   .testimonial {
+    padding-bottom: 130px;
+  }
+}
+
+@media(min-width:1200px){
+  
+  
+}
+
+@media(min-width:1400px){
+   .container{
+        max-width: 1240px;
+    }
+  
+}
