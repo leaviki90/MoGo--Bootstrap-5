@@ -154,6 +154,10 @@ and open the template in the editor.
     .clients .clients-item:nth-of-type(2) {
         margin-bottom: 70px;
     }
+    .clients .clients-item-image {
+        margin-left: -50px !important;
+        margin-right: 0 !important;
+    }
     
      /***BLOG***/
      
@@ -243,6 +247,12 @@ and open the template in the editor.
 .work .work-description {
     margin-bottom: 102px;
   }
+  
+  /****CLIENTS***/
+  .clients .clients-item-image {
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+  }
    /***TESTIMONIAL***/
      
    .testimonial {
@@ -256,7 +266,7 @@ and open the template in the editor.
 }
 
 @media(min-width:1400px){
-   .container{
+   .container {
         max-width: 1240px;
     }
   
